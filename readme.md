@@ -17,7 +17,7 @@
 
 ```bash
 # 一条命令创建新项目
-npx giget@latest gh:your-username/uni-vue-tsx my-project
+npx giget@latest gh:arche-repos/uni-vue-tsx my-project
 
 # 进入目录
 cd my-project

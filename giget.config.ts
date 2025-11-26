@@ -2,7 +2,7 @@
 export default {
   name: 'uni-vue-tsx',
   description: 'uni-app Vue3 TypeScript 多端模板',
-  repo: 'your-username/uni-vue-tsx',
+  repo: 'arche-repos/uni-vue-tsx',
   branch: 'main',
   dir: '.',
   ignore: [

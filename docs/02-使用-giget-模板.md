@@ -6,11 +6,11 @@
 
 ```bash
 # 使用 npx（推荐）
-npx giget@latest gh:your-username/uni-vue-tsx my-project
+npx giget@latest gh:arche-repos/uni-vue-tsx my-project
 
 # 或全局安装
 npm i -g giget
-giget gh:your-username/uni-vue-tsx my-project
+giget gh:arche-repos/uni-vue-tsx my-project
 ```
 
 进入项目并安装依赖：
@@ -25,24 +25,24 @@ yarn install
 | 参数 | 说明 |
 | ---- | ---- |
 | `gh:` | 仓库托管平台，支持 `gh:`（GitHub）、`gitlab:` 等 |
-| `your-username/uni-vue-tsx` | 模板仓库地址，按需替换 |
+| `arche-repos/uni-vue-tsx` | 模板仓库地址，按需替换 |
 | `my-project` | 本地目录名 |
 
 ## 高级用法
 
 1. 指定分支  
    ```bash
-   npx giget gh:your-username/uni-vue-tsx#dev my-project
+   npx giget gh:arche-repos/uni-vue-tsx#dev my-project
    ```
 
 2. 仅克隆子目录（Monorepo 场景）  
    ```bash
-   npx giget gh:your-username/uni-vue-tsx/templates/h5 my-h5
+   npx giget gh:arche-repos/uni-vue-tsx/templates/h5 my-h5
    ```
 
 3. 自动安装依赖  
    ```bash
-   npx giget gh:your-username/uni-vue-tsx my-project --install
+   npx giget gh:arche-repos/uni-vue-tsx my-project --install
    ```
 
 ## 与 degit 差异
